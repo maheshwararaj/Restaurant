@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -30,6 +31,8 @@ public class LoginActivity extends AppCompatActivity {
     private Button signInButton;
     private Button signUpButton;
 
+    private TextView createAccount;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +52,14 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        createAccount = findViewById(R.id.create);
+
+        createAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, SignupActivity.class));
+            }
+        });
 //        signUpButton.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
