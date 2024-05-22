@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "158566495598",
+    "firebase_url": "https://restaurant-f32a3-default-rtdb.firebaseio.com",
+    "project_id": "restaurant-f32a3",
+    "storage_bucket": "restaurant-f32a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158566495598:android:ed6766756a05c1a79d3d7f",
+        "android_client_info": {
+          "package_name": "com.example.restaurant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLQQD6J5zVuHB3n_h3M0_Uf3W6qEj53pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
